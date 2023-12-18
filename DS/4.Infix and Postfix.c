@@ -7,7 +7,7 @@ push(char elem)
 { 
 s[++top] = elem; 
 } 
-char pop()  
+char pop()
 { 
 return (s[top--]); 
 } 
